@@ -40,7 +40,7 @@ const Navbar = () => {
             <div className="max-w-[1600px] mx-auto flex items-center justify-between">
                 {/* Logo & Branding */}
                 <Link to="/" className="flex items-center gap-4 group">
-                    <img src="/src/assets/logo.png" alt="Fitness Yard Gym" className="h-10 md:h-12 w-auto transition-transform group-hover:scale-110" />
+                    <img src="/logo.png" alt="Fitness Yard Gym" className="h-10 md:h-12 w-auto transition-transform group-hover:scale-110" />
                     <div className="flex flex-col">
                         <span className="font-heading font-black text-xl md:text-2xl tracking-tighter leading-none italic">
                             FITNESS <span className="text-brand-yellow">YARD</span>

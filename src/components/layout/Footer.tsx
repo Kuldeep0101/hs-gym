@@ -10,7 +10,7 @@ const Footer = () => {
                 {/* Brand & Mission */}
                 <div className="space-y-6">
                     <Link to="/" className="flex items-center gap-2">
-                        <img src="/src/assets/logo.png" alt="Fitness Yard Gym" className="h-16 w-auto" />
+                        <img src="/logo.png" alt="Fitness Yard Gym" className="h-16 w-auto" />
                         <div className="flex flex-col">
                             <span className="font-heading font-extrabold text-2xl tracking-tighter leading-none">
                                 FITNESS <span className="text-brand-yellow">YARD</span>

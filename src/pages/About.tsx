@@ -6,23 +6,23 @@ import SEO from '../components/shared/SEO';
 const About = () => {
     return (
         <div className="pt-32 lg:pt-40">
-            <SEO title="About Fitness Yard Gym | Our Story & Mission in Meerut" description="Learn about Fitness Yard Gym's mission to build the strongest version of Meerut. Explore our elite facility highlights and meet our team." />
+            <SEO title="About He and She Gym | Our Story & Mission in Aligarh" description="Learn about He and She Gym's mission to build the strongest version of Aligarh. Explore our elite facility highlights and meet our team." />
             {/* Page Header */}
-            <section className="bg-brand-black py-20 border-b border-brand-yellow/10">
+            <section className="bg-brand-black py-20 border-b border-brand-accent/10">
                 <div className="container mx-auto px-4 md:px-8">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         className="text-center"
                     >
-                        <span className="text-brand-yellow font-bold tracking-[0.3em] uppercase text-sm">About Fitness Yard</span>
+                        <span className="text-brand-accent font-bold tracking-[0.3em] uppercase text-sm">About He and She Gym</span>
                         <h1 className="text-5xl md:text-7xl font-black mt-4 uppercase italic">Beyond just a workout.</h1>
                     </motion.div>
                 </div>
             </section>
 
             {/* Story Section */}
-            <section className="py-32 bg-[#080808]">
+            <section className="py-20 bg-[#080808]">
                 <div className="container mx-auto px-4 md:px-8">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
                         <motion.div
@@ -31,13 +31,13 @@ const About = () => {
                             viewport={{ once: true }}
                             className="relative"
                         >
-                            <div className="absolute -top-4 -left-4 w-24 h-24 bg-brand-yellow/10 rounded-full blur-3xl" />
+                            <div className="absolute -top-4 -left-4 w-24 h-24 bg-brand-accent/10 rounded-full blur-3xl" />
                             <img
                                 src="https://images.unsplash.com/photo-1574680096145-d05b474e2158?q=80&w=2069&auto=format&fit=crop"
                                 alt="Gym Interior"
                                 className="rounded-3xl border border-brand-white/10 relative z-10"
                             />
-                            <div className="absolute -bottom-10 -right-10 bg-brand-yellow p-8 rounded-3xl hidden md:block z-20">
+                            <div className="absolute -bottom-10 -right-10 bg-brand-accent p-8 rounded-3xl hidden md:block z-20">
                                 <span className="text-brand-black text-5xl font-black block">5+</span>
                                 <span className="text-brand-black font-bold uppercase tracking-widest text-sm">Years of Results</span>
                             </div>
@@ -45,17 +45,17 @@ const About = () => {
 
                         <div className="space-y-8">
                             <h2 className="text-4xl font-black uppercase italic leading-tight">
-                                Our Mission: Build the <span className="text-brand-yellow">strongest version</span> of Meerut.
+                                Our Mission: Build the <span className="text-brand-accent">strongest version</span> of Aligarh.
                             </h2>
                             <p className="text-xl text-muted-foreground leading-relaxed">
-                                Founded in 2020, Fitness Yard Gym was born from a simple belief: everyone deserves a elite-level training environment regardless of their starting point.
+                                Founded with passion, He and She Gym was born from a simple belief: everyone deserves an elite-level training environment regardless of their starting point.
                             </p>
                             <p className="text-lg text-white/70">
-                                We've combined world-class equipment with a team of trainers who are as invested in your goals as you are. At Fitness Yard, you're not just a membership number—you're part of a community that pushes each other to be better every single day.
+                                We've combined world-class equipment with a team of trainers who are as invested in your goals as you are. At He and She Gym, you're not just a membership number—you're part of a community that pushes each other to be better every single day.
                             </p>
                             <div className="pt-4 grid grid-cols-1 sm:grid-cols-2 gap-6">
                                 <div className="flex gap-4">
-                                    <div className="p-3 bg-brand-yellow/10 text-brand-yellow rounded-xl h-fit">
+                                    <div className="p-3 bg-brand-accent/10 text-brand-accent rounded-xl h-fit">
                                         <Shield size={24} />
                                     </div>
                                     <div>
@@ -64,7 +64,7 @@ const About = () => {
                                     </div>
                                 </div>
                                 <div className="flex gap-4">
-                                    <div className="p-3 bg-brand-yellow/10 text-brand-yellow rounded-xl h-fit">
+                                    <div className="p-3 bg-brand-accent/10 text-brand-accent rounded-xl h-fit">
                                         <Heart size={24} />
                                     </div>
                                     <div>
@@ -79,25 +79,25 @@ const About = () => {
             </section>
 
             {/* Values Section */}
-            <section className="py-32 bg-brand-black border-y border-brand-yellow/10">
+            <section className="py-20 bg-brand-black border-y border-brand-accent/10">
                 <div className="container mx-auto px-4 md:px-8 text-center mb-20">
-                    <span className="text-brand-yellow font-bold tracking-[0.3em] uppercase text-sm">Our Core Values</span>
-                    <h2 className="text-4xl md:text-6xl font-black mt-4 uppercase italic">The Yard Mentality</h2>
+                    <span className="text-brand-accent font-bold tracking-[0.3em] uppercase text-sm">Our Core Values</span>
+                    <h2 className="text-4xl md:text-6xl font-black mt-4 uppercase italic">The He & She Mentality</h2>
                 </div>
                 <div className="container mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-3 gap-12">
                     {[
                         {
-                            icon: <Target className="w-10 h-10 text-brand-yellow" />,
+                            icon: <Target className="w-10 h-10 text-brand-accent" />,
                             title: "Consistency",
                             text: "We believe in progress over perfection. Showing up is 80% of the battle."
                         },
                         {
-                            icon: <Award className="w-10 h-10 text-brand-yellow" />,
+                            icon: <Award className="w-10 h-10 text-brand-accent" />,
                             title: "Expertise",
                             text: "Our trainers are certified and experienced, focusing on proper form and science-based methods."
                         },
                         {
-                            icon: <ArrowRight className="w-10 h-10 text-brand-yellow" />,
+                            icon: <ArrowRight className="w-10 h-10 text-brand-accent" />,
                             title: "Transformation",
                             text: "We don't just change bodies; we build confidence and discipline that lasts."
                         }
@@ -116,14 +116,14 @@ const About = () => {
             </section>
 
             {/* Facility Highlights Grid */}
-            <section className="py-32 bg-[#080808]">
+            <section className="py-20 bg-[#080808]">
                 <div className="container mx-auto px-4 md:px-8">
                     <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
                         <div className="max-w-xl">
-                            <span className="text-brand-yellow font-bold tracking-[0.3em] uppercase text-sm">Our Space</span>
+                            <span className="text-brand-accent font-bold tracking-[0.3em] uppercase text-sm">Our Space</span>
                             <h2 className="text-4xl md:text-6xl font-black mt-4 uppercase italic">Elite Environment.</h2>
                         </div>
-                        <Link to="/gallery" className="text-brand-yellow font-bold flex items-center gap-2 hover:translate-x-2 transition-transform mb-2">
+                        <Link to="/gallery" className="text-brand-accent font-bold flex items-center gap-2 hover:translate-x-2 transition-transform mb-2">
                             VIEW FULL GALLERY <ArrowRight size={20} />
                         </Link>
                     </div>
@@ -137,7 +137,7 @@ const About = () => {
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent p-10 flex flex-col justify-end">
                                 <h4 className="text-2xl font-black uppercase">Heavy Weight Zone</h4>
-                                <p className="text-brand-yellow font-bold uppercase tracking-wider text-sm">Full rack of dumbbells & barbells</p>
+                                <p className="text-brand-accent font-bold uppercase tracking-wider text-sm">Full rack of dumbbells & barbells</p>
                             </div>
                         </div>
                         <div className="md:col-span-4 overflow-hidden rounded-3xl relative group">
@@ -175,11 +175,11 @@ const About = () => {
             </section>
 
             {/* CTA Section */}
-            <section className="py-32 bg-brand-yellow">
+            <section className="py-20 bg-brand-accent">
                 <div className="container mx-auto px-4 md:px-8 text-center text-brand-black">
                     <h2 className="text-4xl md:text-7xl font-black uppercase italic mb-8">Meet our trainers.</h2>
                     <p className="text-xl font-bold mb-12 max-w-2xl mx-auto opacity-80">
-                        Our elite team is ready to guide you. Discover the experts behind Fitness Yard's results.
+                        Our elite team is ready to guide you. Discover the experts behind He and She Gym's results.
                     </p>
                     <Link to="/trainers" className="bg-brand-black text-brand-white px-12 py-6 rounded-full font-black text-2xl hover:bg-white hover:text-black transition-all transform hover:scale-105 inline-block">
                         DISCOVER TRAINERS

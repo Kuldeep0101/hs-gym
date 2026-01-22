@@ -5,11 +5,11 @@ import SEO from '../components/shared/SEO';
 const faqs = [
     {
         q: "Do you offer a free trial?",
-        a: "Yes! We offer a one-day 100% free trial for all local residents of Meerut. You can book it online or walk in with a valid ID."
+        a: "Yes! We offer a one-day 100% free trial for all local residents of Aligarh. You can book it online or walk in with a valid ID."
     },
     {
         q: "What are the gym hours?",
-        a: "We are open Monday to Saturday from 5:00 AM to 10:00 PM. We are closed on Sundays to allow for deep cleaning and maintenance."
+        a: "We are open Monday to Saturday from 6:00 AM to 9:00 PM. We are closed on Sundays to allow for deep cleaning and maintenance."
     },
     {
         q: "Are group classes included in the membership?",
@@ -28,25 +28,25 @@ const faqs = [
 const FAQ = () => {
     return (
         <div className="pt-32 lg:pt-40">
-            <SEO title="FAQ & Policies | Fitness Yard Gym Meerut" description="Find answers to common questions about Fitness Yard Gym. Membership details, opening hours, refund policies, and more." />
+            <SEO title="FAQ & Policies | He and She Gym Aligarh" description="Find answers to common questions about He and She Gym. Membership details, opening hours, refund policies, and more." />
             {/* Header */}
-            <section className="bg-brand-black py-20 border-b border-brand-yellow/10">
+            <section className="bg-brand-black py-20 border-b border-brand-accent/10">
                 <div className="container mx-auto px-4 md:px-8 text-center">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                     >
-                        <span className="text-brand-yellow font-bold tracking-[0.3em] uppercase text-sm">Got Questions?</span>
+                        <span className="text-brand-accent font-bold tracking-[0.3em] uppercase text-sm">Got Questions?</span>
                         <h1 className="text-5xl md:text-7xl font-black mt-4 uppercase italic">FAQ & Policies.</h1>
                     </motion.div>
                 </div>
             </section>
 
             {/* FAQ Grid */}
-            <section className="py-24 bg-[#080808]">
+            <section className="py-20 bg-[#080808]">
                 <div className="container mx-auto px-4 md:px-8 max-w-4xl">
                     <div className="flex items-center gap-4 mb-12">
-                        <div className="p-3 bg-brand-yellow/10 text-brand-yellow rounded-xl">
+                        <div className="p-3 bg-brand-accent/10 text-brand-accent rounded-xl">
                             <HelpCircle size={32} />
                         </div>
                         <h2 className="text-3xl font-black uppercase italic">Frequently Asked Questions</h2>
@@ -60,9 +60,9 @@ const FAQ = () => {
                                 whileInView={{ opacity: 1, x: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ delay: i * 0.1 }}
-                                className="p-8 rounded-[32px] bg-brand-black border border-brand-white/10 hover:border-brand-yellow/30 transition-all group"
+                                className="p-8 rounded-[32px] bg-brand-black border border-brand-white/10 hover:border-brand-accent/30 transition-all group"
                             >
-                                <h4 className="text-xl font-bold mb-4 text-brand-white group-hover:text-brand-yellow transition-colors">{faq.q}</h4>
+                                <h4 className="text-xl font-bold mb-4 text-brand-white group-hover:text-brand-accent transition-colors">{faq.q}</h4>
                                 <p className="text-muted-foreground leading-relaxed italic">
                                     "{faq.a}"
                                 </p>
@@ -73,26 +73,26 @@ const FAQ = () => {
             </section>
 
             {/* Policies */}
-            <section className="py-24 bg-brand-black border-t border-brand-yellow/10">
+            <section className="py-20 bg-brand-black border-t border-brand-accent/10">
                 <div className="container mx-auto px-4 md:px-8 max-w-4xl">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <div className="p-10 rounded-[40px] bg-brand-white/5 border border-brand-white/10">
-                            <ShieldCheck className="text-brand-yellow mb-6" size={40} />
+                            <ShieldCheck className="text-brand-accent mb-6" size={40} />
                             <h3 className="text-2xl font-black uppercase mb-4">Privacy Policy</h3>
                             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
                                 We respect your privacy. All your personal information collected during sign-up is used solely for membership management and verification.
                             </p>
-                            <button className="text-brand-yellow font-bold text-xs uppercase tracking-widest flex items-center gap-2 hover:translate-x-2 transition-transform">
+                            <button className="text-brand-accent font-bold text-xs uppercase tracking-widest flex items-center gap-2 hover:translate-x-2 transition-transform">
                                 READ FULL POLICY <ChevronRight size={14} />
                             </button>
                         </div>
                         <div className="p-10 rounded-[40px] bg-brand-white/5 border border-brand-white/10">
-                            <Scale className="text-brand-yellow mb-6" size={40} />
+                            <Scale className="text-brand-accent mb-6" size={40} />
                             <h3 className="text-2xl font-black uppercase mb-4">Terms of Conduct</h3>
                             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
                                 To maintain a positive environment, we require all members to follow our code of conduct, including proper equipment handling and respect for others.
                             </p>
-                            <button className="text-brand-yellow font-bold text-xs uppercase tracking-widest flex items-center gap-2 hover:translate-x-2 transition-transform">
+                            <button className="text-brand-accent font-bold text-xs uppercase tracking-widest flex items-center gap-2 hover:translate-x-2 transition-transform">
                                 READ TERMS <ChevronRight size={14} />
                             </button>
                         </div>
@@ -100,7 +100,7 @@ const FAQ = () => {
 
                     <div className="mt-8 p-10 rounded-[40px] bg-brand-white/5 border border-brand-white/10">
                         <div className="flex items-center gap-4 mb-6">
-                            <FileText className="text-brand-yellow" size={32} />
+                            <FileText className="text-brand-accent" size={32} />
                             <h3 className="text-2xl font-black uppercase">Membership Terms</h3>
                         </div>
                         <div className="space-y-4 text-muted-foreground text-sm leading-relaxed italic">

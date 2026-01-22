@@ -8,32 +8,32 @@ interface SEOProps {
 }
 
 const SEO = ({
-    title = "Fitness Yard — Meerut's Elite Gym for Real Results",
-    description = "Join Fitness Yard Gym in Meerut for elite personal training, group classes, and world-class equipment. Book your free trial today!",
+    title = "He and She Gym — Aligarh's Elite Fitness Destination",
+    description = "Join He and She Gym in Aligarh for premium fitness, personal training, and a welcoming environment for everyone. Book your free trial today!",
     type = "website",
-    name = "Fitness Yard Gym"
+    name = "He and She Gym"
 }: SEOProps) => {
 
     const schemaData = {
         "@context": "https://schema.org",
         "@type": "Gym",
-        "name": "Fitness Yard Gym",
-        "image": "https://fitnessyardgym.com/logo.png",
-        "@id": "https://fitnessyardgym.com",
-        "url": "https://fitnessyardgym.com",
-        "telephone": "+91 7217861996",
+        "name": "He and She Gym",
+        "image": "https://heandshegym.com/logo.png",
+        "@id": "https://heandshegym.com",
+        "url": "https://heandshegym.com",
+        "telephone": "+91 90545 89819",
         "priceRange": "₹₹",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Siddhi Vinayakam Complex, Rishi Nagar, Baghpat Road",
-            "addressLocality": "Meerut",
-            "postalCode": "250002",
+            "streetAddress": "Gulzar Nagar",
+            "addressLocality": "Aligarh",
+            "postalCode": "202001",
             "addressCountry": "IN"
         },
         "geo": {
             "@type": "GeoCoordinates",
-            "latitude": 28.9845,
-            "longitude": 77.6212
+            "latitude": 27.8974,
+            "longitude": 78.0880
         },
         "openingHoursSpecification": [
             {
@@ -46,8 +46,8 @@ const SEO = ({
                     "Friday",
                     "Saturday"
                 ],
-                "opens": "05:00",
-                "closes": "22:00"
+                "opens": "06:00",
+                "closes": "21:00"
             }
         ],
         "sameAs": [

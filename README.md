@@ -1,6 +1,6 @@
-# Fitness Yard Gym - Developer Handoff
+# He and She Gym - Developer Handoff
 
-This project is a React implementation of the Fitness Yard Gym website. It uses a modern tech stack focused on performance and design.
+This project is a React implementation of the He and She Gym website. It uses a modern tech stack focused on performance and design.
 
 ## Tech Stack
 - **Frontend**: React 19 + TypeScript
@@ -74,4 +74,4 @@ To upload this project to a new GitHub repository:
 This site is optimized for **Vercel** or **Netlify**. Simply connect your GitHub repo to their platform, and it will auto-deploy.
 
 ---
-Built for Fitness Yard Gym, Meerut.
+Built for He and She Gym, Aligarh.

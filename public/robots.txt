@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://fitnessyardgym.com/sitemap.xml
+Sitemap: https://heandshegym.com/sitemap.xml

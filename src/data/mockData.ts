@@ -1,25 +1,25 @@
 export const services = [
     {
-        title: "Weight Training",
-        description: "Elite level equipment for bodybuilding and strength training.",
+        title: "Modern Strength",
+        description: "Olympic platforms and prime strength machines for serious results.",
         icon: "Dumbbell",
-        image: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=2070&auto=format&fit=crop"
+        image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop"
     },
     {
-        title: "Personal Training",
-        description: "1-on-1 coaching tailored to your specific fitness goals.",
+        title: "Elite Coaching",
+        description: "Transformation experts dedicated to your personal success journey.",
         icon: "UserCheck",
-        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2070&auto=format&fit=crop"
+        image: "https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=2070&auto=format&fit=crop"
     },
     {
-        title: "Cardio & HIIT",
-        description: "High-intensity sessions to boost endurance and burn fat.",
+        title: "The Arena",
+        description: "High-octane group sessions designed to torch calories and build grit.",
         icon: "Activity",
-        image: "https://images.unsplash.com/photo-1518611012118-296156a2f447?q=80&w=2070&auto=format&fit=crop"
+        image: "https://images.unsplash.com/photo-1534258936925-c58bed479fcb?q=80&w=2070&auto=format&fit=crop"
     },
     {
-        title: "Nutrition Coaching",
-        description: "Expert dietary plans to complement your physical training.",
+        title: "Fuel Lab",
+        description: "Data-driven nutrition strategies to optimize your performance.",
         icon: "Utensils",
         image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=2070&auto=format&fit=crop"
     }
@@ -42,122 +42,101 @@ export const classes = [
 
 export const testimonials = [
     {
-        name: "Vikram Malhotra",
-        role: "Member for 2 years",
-        content: "Fitness Yard changed my life. The trainers actually care about your form and progress. Best gym in Meerut hands down!",
+        name: "Abhishek Verma",
+        role: "Member",
+        content: "Best gym in Aligarh for both men and women. The environment is very professional and inclusive. Highly recommended!",
         rating: 5,
-        avatar: "https://i.pravatar.cc/150?u=vikram"
+        avatar: "https://i.pravatar.cc/150?u=abhishek"
     },
     {
-        name: "Ananya Kapoor",
-        role: "Weight Loss Success",
-        content: "Lost 15kg in 6 months thanks to the personal training program. The environment is so motivating and friendly.",
+        name: "Sanya Khan",
+        role: "Member",
+        content: "Love the atmosphere here. The trainers are very supportive and the equipment is top-notch. Great place for female fitness.",
         rating: 5,
-        avatar: "https://i.pravatar.cc/150?u=ananya"
+        avatar: "https://i.pravatar.cc/150?u=sanya"
     },
     {
-        name: "Arjun Gupta",
-        role: "Athlete",
-        content: "The equipment here is top-notch. I've trained at many places, but the vibe here is unmatched. Highly recommended.",
+        name: "Rahul Chaudhary",
+        role: "Fitness Enthusiast",
+        content: "Outstanding facilities and very clean. He and She Gym is definitely the best choice in Gulzar Nagar area.",
         rating: 5,
-        avatar: "https://i.pravatar.cc/150?u=arjun"
+        avatar: "https://i.pravatar.cc/150?u=rahul"
     }
 ];
 
 export const trainers = [
     {
         id: 1,
-        name: "Rahul Sharma",
-        role: "Head Trainer & Founder",
-        specialties: ["Bodybuilding", "Strength & Conditioning", "Nutrition"],
-        certifications: ["ACE Certified", "ISSA Professional"],
-        bio: "With over 10 years of experience, Rahul specializes in transformational training and high-performance bodybuilding.",
+        name: "Trainer Name",
+        role: "Head Trainer",
+        specialties: ["Bodybuilding", "Strength Training"],
+        certifications: ["Certified Professional"],
+        bio: "Expert trainer dedicated to helping you achieve your fitness goals at He and She Gym.",
         image: "https://images.unsplash.com/photo-1567013127542-490d757e51fe?q=80&w=1974&auto=format&fit=crop",
         social: { instagram: "#", youtube: "#" }
     },
     {
         id: 2,
-        name: "Priya Singh",
-        role: "Senior Fitness Coach",
-        specialties: ["HIIT", "Female Fitness", "Weight Loss"],
-        certifications: ["NASM Performance Specialization"],
-        bio: "Priya is passionate about helping women achieve their fitness goals through functional training and sustainable habits.",
+        name: "Female Trainer",
+        role: "Fitness Coach",
+        specialties: ["Yoga", "Female Fitness", "Weight Loss"],
+        certifications: ["Certified Fitness Expert"],
+        bio: "Specializes in female fitness and holistic wellness. Join her sessions for a balanced lifestyle.",
         image: "https://images.unsplash.com/photo-1548690312-e3b507d17a4d?q=80&w=1974&auto=format&fit=crop",
-        social: { instagram: "#", youtube: "#" }
-    },
-    {
-        id: 3,
-        name: "Amit Kumar",
-        role: "Powerlifting Specialist",
-        specialties: ["Powerlifting", "Olympic Lifting", "Mobility"],
-        certifications: ["USAPL Level 1 Coach"],
-        bio: "Amit focuses on raw strength and explosive power. He helps athletes break plateaus and build solid foundations.",
-        image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop",
-        social: { instagram: "#", youtube: "#" }
-    },
-    {
-        id: 4,
-        name: "Sonia Verma",
-        role: "Yoga & Flexibility Expert",
-        specialties: ["Hatha Yoga", "Vinyasa Flow", "Post-rehab"],
-        certifications: ["RYT 500 Certified"],
-        bio: "Sonia combines traditional yoga with modern mobility techniques to help members recover faster and move better.",
-        image: "https://images.unsplash.com/photo-1552196564-97c36a469739?q=80&w=2070&auto=format&fit=crop",
         social: { instagram: "#", youtube: "#" }
     }
 ];
 
 export const membershipPlans = [
     {
-        name: "Day Pass",
+        name: "Trial Pass",
         price: "0",
         duration: "1 Day",
         features: [
-            "Access to all equipment",
-            "Shower & locker facility",
+            "Full facility access",
+            "Gym tour & assessment",
             "Valid for 24 hours",
-            "Trial class included"
+            "Expert consultation"
         ],
         cta: "Book Free Trial",
         highlight: false
     },
     {
-        name: "Monthly",
-        price: "2,500",
-        duration: "30 Days",
+        name: "Pro Monthly",
+        price: "1,500",
+        duration: "Per Month",
         features: [
-            "No long-term commitment",
-            "All group classes included",
-            "Personalized workout plan",
-            "Nutrition advice"
+            "Unlimited gym access",
+            "All beginner classes",
+            "Locker & shower",
+            "Initial diet plan"
         ],
         cta: "Join Now",
         highlight: false
     },
     {
-        name: "Quarterly",
-        price: "6,500",
-        duration: "90 Days",
+        name: "Elite Quarterly",
+        price: "4,000",
+        duration: "3 Months",
         features: [
-            "Standard membership",
-            "Save 15% vs Monthly",
-            "2 PT sessions included",
-            "Advanced progress tracking"
+            "Most popular choice",
+            "Priority class booking",
+            "Custom workout plan",
+            "Monthly body scans"
         ],
         cta: "Join Now",
         highlight: true,
         badge: "Most Popular"
     },
     {
-        name: "Yearly",
-        price: "18,000",
+        name: "Ultimate Yearly",
+        price: "12,000",
         duration: "1 Year",
         features: [
-            "Ultimate commitment",
-            "Best value (Save 40%)",
-            "5 PT sessions included",
-            "VIP locker access",
-            "Free gym jersey"
+            "Best value plan",
+            "1 Free PT session",
+            "VIP lounge access",
+            "He & She apparel"
         ],
         cta: "Join Now",
         highlight: false
@@ -165,16 +144,10 @@ export const membershipPlans = [
 ];
 
 export const galleryImages = [
-    { url: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop", tag: "Equipment" },
-    { url: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=2070&auto=format&fit=crop", tag: "Powerlifting" },
+    { url: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop", tag: "Gym View" },
+    { url: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=2070&auto=format&fit=crop", tag: "Equipment" },
     { url: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2070&auto=format&fit=crop", tag: "Training" },
     { url: "https://images.unsplash.com/photo-1518611012118-296156a2f447?q=80&w=2070&auto=format&fit=crop", tag: "Cardio" },
-    { url: "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=2070&auto=format&fit=crop", tag: "Gym Interior" },
+    { url: "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=2070&auto=format&fit=crop", tag: "Interior" },
     { url: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=2070&auto=format&fit=crop", tag: "Weights" },
-    { url: "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?q=80&w=1975&auto=format&fit=crop", tag: "Personal Training" },
-    { url: "https://images.unsplash.com/photo-1434681908211-3f19706785b9?q=80&w=2070&auto=format&fit=crop", tag: "Strength" },
-    { url: "https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=1974&auto=format&fit=crop", tag: "Dumbbells" },
-    { url: "https://images.unsplash.com/photo-1544033527-b192daee1f5b?q=80&w=2070&auto=format&fit=crop", tag: "Atmosphere" },
-    { url: "https://images.unsplash.com/photo-1599058917233-97f94ca23035?q=80&w=2070&auto=format&fit=crop", tag: "Machines" },
-    { url: "https://images.unsplash.com/photo-1517130038641-a774d04afb3c?q=80&w=2070&auto=format&fit=crop", tag: "Yoga Area" },
 ];

@@ -119,7 +119,7 @@ const Booking = () => {
                             <div className="p-8 rounded-3xl bg-brand-accent text-brand-black">
                                 <h4 className="font-black text-xl uppercase mb-2">Need Help?</h4>
                                 <p className="font-bold mb-6 opacity-70">Speak with our gym manager directly.</p>
-                                <a href="tel:++919837174406589819" className="flex items-center gap-3 text-2xl font-black">
+                                <a href="tel:+919054589819" className="flex items-center gap-3 text-2xl font-black">
                                     <Phone size={24} /> +91 90545 89819
                                 </a>
                             </div>

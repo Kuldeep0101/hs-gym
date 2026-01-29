@@ -59,7 +59,7 @@ const Home = () => {
                                     START FREE TRIAL <ArrowRight size={20} />
                                 </Link>
                                 <a
-                                    href="https://wa.me/+919837174406589819"
+                                    href="https://wa.me/+919837174406"
                                     className="glass px-10 py-5 rounded-full font-black text-lg text-white hover:bg-white/10 transition-all flex items-center gap-3 border border-white/10"
                                 >
                                     CHAT ON WHATSAPP
@@ -176,7 +176,7 @@ const Home = () => {
                         <a href="tel:+919837174406" className="bg-brand-black text-brand-white px-10 py-5 rounded-full font-black text-sm flex items-center gap-3 hover:bg-white hover:text-black transition-all shadow-xl">
                             <Phone size={20} /> CALL NOW
                         </a>
-                        <a href="https://wa.me/+919837174406589819" className="bg-white/20 backdrop-blur-md text-brand-black px-10 py-5 rounded-full font-black text-sm flex items-center gap-3 hover:bg-white transition-all shadow-xl border border-black/5">
+                        <a href="https://wa.me/+919837174406" className="bg-white/20 backdrop-blur-md text-brand-black px-10 py-5 rounded-full font-black text-sm flex items-center gap-3 hover:bg-white transition-all shadow-xl border border-black/5">
                             <MessageCircle size={20} /> WHATSAPP US
                         </a>
                     </div>

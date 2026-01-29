@@ -35,7 +35,7 @@ const Contact = () => {
                                 <div className="p-8 rounded-3xl bg-brand-black border border-brand-white/10 hover:border-brand-accent/30 transition-all">
                                     <MessageCircle className="text-brand-accent mb-4" size={32} />
                                     <h4 className="font-black uppercase mb-2">WhatsApp</h4>
-                                    <a href="https://wa.me/+919837174406589819" className="text-xl font-bold text-white/70 hover:text-brand-accent">Chat with us</a>
+                                    <a href="https://wa.me/+919837174406" className="text-xl font-bold text-white/70 hover:text-brand-accent">Chat with us</a>
                                 </div>
                                 <div className="p-8 rounded-3xl bg-brand-black border border-brand-white/10 hover:border-brand-accent/30 transition-all">
                                     <Mail className="text-brand-accent mb-4" size={32} />

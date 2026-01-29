@@ -29,7 +29,7 @@ const Navbar = () => {
     return (
         <nav
             className={cn(
-                'fixed top-6 left-1/2 -translate-x-1/2 z-50 transition-all duration-500 w-[95%] max-w-[1400px] rounded-full overflow-hidden',
+                'fixed top-6 left-1/2 -translate-x-1/2 z-50 transition-all duration-500 w-[95%] max-w-[1400px] rounded-full',
                 scrolled ? 'glass-dark py-2 px-6 shadow-[0_8px_32px_rgba(0,0,0,0.5)] border-white/10' : 'bg-transparent py-4 px-4'
             )}
         >
@@ -47,7 +47,7 @@ const Navbar = () => {
                 </Link>
 
                 {/* Desktop Links */}
-                <div className="hidden xl:flex items-center gap-10">
+                <div className="hidden lg:flex items-center gap-10">
                     {navLinks.map((link) => (
                         <Link
                             key={link.path}
@@ -69,8 +69,8 @@ const Navbar = () => {
                 {/* Desktop CTA */}
                 <div className="hidden lg:flex items-center gap-8">
                     <a
-                        href="tel:+919054589819"
-                        className="hidden xl:flex items-center gap-3 text-brand-white/90 hover:text-brand-accent transition-all"
+                        href="tel:++919837174406589819"
+                        className="hidden lg:flex items-center gap-3 text-brand-white/90 hover:text-brand-accent transition-all"
                     >
                         <div className="p-2 bg-brand-white/10 rounded-full border border-brand-white/5">
                             <Phone size={16} />
@@ -100,7 +100,7 @@ const Navbar = () => {
             {/* Mobile Menu */}
             <div
                 className={cn(
-                    'lg:hidden fixed inset-0 top-[100px] bg-brand-black/95 backdrop-blur-xl z-40 transition-transform duration-500 transform',
+                    'lg:hidden fixed inset-0 top-[90px] bg-brand-black/95 backdrop-blur-xl z-40 transition-transform duration-500 transform',
                     isOpen ? 'translate-x-0' : 'translate-x-full'
                 )}
             >
@@ -126,7 +126,7 @@ const Navbar = () => {
                         BOOK FREE TRIAL
                     </Link>
                     <a
-                        href="tel:+919054589819"
+                        href="tel:++919837174406589819"
                         className="flex items-center justify-center gap-2 text-brand-white font-bold py-4"
                     >
                         <Phone size={20} />

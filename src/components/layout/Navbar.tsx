@@ -75,7 +75,7 @@ const Navbar = () => {
                     {/* Desktop CTA */}
                     <div className="hidden lg:flex items-center gap-8">
                         <a
-                            href="tel:++919837174406589819"
+                            href="tel:+919837174406"
                             className="flex items-center gap-3 text-brand-white/90 hover:text-brand-accent transition-all"
                         >
                             <div className="p-2 bg-brand-white/10 rounded-full border border-brand-white/5">
@@ -134,7 +134,7 @@ const Navbar = () => {
                         BOOK FREE TRIAL
                     </Link>
                     <a
-                        href="tel:++919837174406589819"
+                        href="tel:+919837174406"
                         className="flex items-center justify-center gap-2 text-brand-white font-bold py-4 hover:text-brand-accent transition-colors"
                     >
                         <div className="p-2 bg-brand-white/10 rounded-full">

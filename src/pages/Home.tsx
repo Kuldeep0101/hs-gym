@@ -173,7 +173,7 @@ const Home = () => {
                         <span className="text-brand-black/50">Start your journey today.</span>
                     </h2>
                     <div className="flex flex-wrap justify-center gap-4">
-                        <a href="tel:++919837174406589819" className="bg-brand-black text-brand-white px-10 py-5 rounded-full font-black text-sm flex items-center gap-3 hover:bg-white hover:text-black transition-all shadow-xl">
+                        <a href="tel:+919837174406" className="bg-brand-black text-brand-white px-10 py-5 rounded-full font-black text-sm flex items-center gap-3 hover:bg-white hover:text-black transition-all shadow-xl">
                             <Phone size={20} /> CALL NOW
                         </a>
                         <a href="https://wa.me/+919837174406589819" className="bg-white/20 backdrop-blur-md text-brand-black px-10 py-5 rounded-full font-black text-sm flex items-center gap-3 hover:bg-white transition-all shadow-xl border border-black/5">

@@ -30,12 +30,12 @@ const Contact = () => {
                                 <div className="p-8 rounded-3xl bg-brand-black border border-brand-white/10 hover:border-brand-accent/30 transition-all">
                                     <Phone className="text-brand-accent mb-4" size={32} />
                                     <h4 className="font-black uppercase mb-2">Call Us</h4>
-                                    <a href="tel:+919054589819" className="text-xl font-bold text-white/70 hover:text-brand-accent">+91 90545 89819</a>
+                                    <a href="tel:++919837174406589819" className="text-xl font-bold text-white/70 hover:text-brand-accent">+91 90545 89819</a>
                                 </div>
                                 <div className="p-8 rounded-3xl bg-brand-black border border-brand-white/10 hover:border-brand-accent/30 transition-all">
                                     <MessageCircle className="text-brand-accent mb-4" size={32} />
                                     <h4 className="font-black uppercase mb-2">WhatsApp</h4>
-                                    <a href="https://wa.me/919054589819" className="text-xl font-bold text-white/70 hover:text-brand-accent">Chat with us</a>
+                                    <a href="https://wa.me/+919837174406589819" className="text-xl font-bold text-white/70 hover:text-brand-accent">Chat with us</a>
                                 </div>
                                 <div className="p-8 rounded-3xl bg-brand-black border border-brand-white/10 hover:border-brand-accent/30 transition-all">
                                     <Mail className="text-brand-accent mb-4" size={32} />
@@ -94,7 +94,7 @@ const Contact = () => {
                 <div className="container mx-auto px-4 md:px-8 text-center">
                     <h4 className="text-2xl font-black uppercase italic mb-6">Have questions?</h4>
                     <div className="flex flex-wrap justify-center gap-6">
-                        <a href="tel:+919054589819" className="bg-brand-white/5 border border-brand-white/10 px-8 py-4 rounded-full font-bold hover:bg-brand-accent hover:text-brand-black transition-all">CALL US DIRECTLY</a>
+                        <a href="tel:++919837174406589819" className="bg-brand-white/5 border border-brand-white/10 px-8 py-4 rounded-full font-bold hover:bg-brand-accent hover:text-brand-black transition-all">CALL US DIRECTLY</a>
                         <motion.button
                             whileHover={{ scale: 1.05 }}
                             className="bg-brand-accent text-brand-black px-8 py-4 rounded-full font-bold shadow-[0_0_20px_rgba(255,212,0,0.3)]"
